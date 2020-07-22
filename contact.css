@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+  background-color: #9b5de5;
+}
+
+/* NAVIGATION BAR */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .logo {
+  margin-right: auto;
+  font-size: 40px;
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  font-size: 40px;
+}
+
+.con {
+  margin-top: 2em;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: column;
+  max-width: 20%;
+  margin-right: 3.8em;
+}
+
+#contact input {
+  width: 200%;
+  margin-bottom: 2em;
+  border: black 2px solid;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+#contact textarea {
+  width: 200%;
+  margin-bottom: 2em;
+  border: black 2px solid;
+  padding: 1em;
+  border-radius: 10px;
+  resize: vertical;
+  margin-bottom: 2em;
+}
+
+#contact button:hover {
+  background-color: blue;
+}
+
+#contact button {
+  width: 200%;
+  margin-bottom: 2em;
+  border: black 2px solid;
+  padding: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #078fc5;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
