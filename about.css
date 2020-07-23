@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* NAV BAR */
+
+html,
+body {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+  background: rgba(32, 124, 229, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 24%,
+    rgba(73, 155, 234, 1) 57%,
+    rgba(73, 155, 234, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(32, 124, 229, 1)),
+    color-stop(24%, rgba(32, 124, 229, 1)),
+    color-stop(57%, rgba(73, 155, 234, 1)),
+    color-stop(100%, rgba(73, 155, 234, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 24%,
+    rgba(73, 155, 234, 1) 57%,
+    rgba(73, 155, 234, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 24%,
+    rgba(73, 155, 234, 1) 57%,
+    rgba(73, 155, 234, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 24%,
+    rgba(73, 155, 234, 1) 57%,
+    rgba(73, 155, 234, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(32, 124, 229, 1) 0%,
+    rgba(32, 124, 229, 1) 24%,
+    rgba(73, 155, 234, 1) 57%,
+    rgba(73, 155, 234, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#499bea', GradientType=1 );
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 40px;
+  margin-left: 1em;
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 3em;
+  font-size: 20px;
+  margin-top: 1em;
+}
+
+nav li a {
+  color: white;
+}
+
+/* ABOUT ME  */
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  color: white;
+}
+
+.mine {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.about {
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  line-height: 2em;
+}
+
+/* SKILLS GRAPH */
+
+.mine {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.graph {
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.container2 p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-right: 9.5em;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container3 p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-right: 11.5em;
+}
+
+.cont1 {
+  width: 40%;
+  height: 2em;
+  background-color: #333;
+  margin-bottom: 1em;
+  margin-left: 5em;
+  border-radius: 10px;
+}
+
+.con1 {
+  width: 90%;
+  height: 2em;
+  background-color: red;
+  border-radius: 10px;
+  text-align: end;
+}
+
+.con2 {
+  width: 80%;
+  height: 2em;
+  background-color: blue;
+  border-radius: 10px;
+  text-align: end;
+}
+
+.con3 {
+  width: 65%;
+  height: 2em;
+  background-color: green;
+  border-radius: 10px;
+  text-align: end;
+}
+
+.con4 {
+  width: 75%;
+  height: 2em;
+  background-color: purple;
+  border-radius: 10px;
+  text-align: end;
+}
