@@ -273,7 +273,11 @@ nav li a {
     display: none;
   }
 
-  .mine {
+  .about_me {
     display: none;
+  }
+
+  .about-me {
+    margin-top: 1em;
   }
 }
