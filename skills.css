@@ -70,8 +70,8 @@ header {
 .logo {
   margin-right: auto;
   font-size: 40px;
-  margin-left: 1em;
   color: white;
+  margin-left: 1em;
 }
 
 nav {
@@ -89,76 +89,38 @@ nav li a {
   color: white;
 }
 
-/* Animation  */
-
-.animated {
-  margin-left: 12em;
-  margin-top: 11em;
-}
+/* ANIMATIONS */
 
 .anim {
-  color: white;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 60px;
+}
 
+.doo1 {
   font-size: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 4s steps(40, end);
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-.svg1 {
   margin-top: 1em;
-  opacity: 25%;
+  width: 25%;
 }
 
-@media (max-width: 480px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4em;
-    margin-right: -10em;
-  }
+.doo2 {
+  font-size: 40px;
+  margin-top: 1em;
+  width: 25%;
+}
 
-  .logo {
-    margin-left: 0.5em;
-  }
+.doo3 {
+  font-size: 40px;
+  margin-top: 1em;
+  width: 25%;
+}
 
-  #menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin-right: 4em;
-    margin-top: 0.5em;
-    width: 3em;
-    height: 3em;
-  }
-
-  .bar {
-    width: 100%;
-    height: 0.5em;
-    margin-bottom: 0.5em;
-    background-color: black;
-  }
-
-  .animated {
-    margin-left: 1em;
-    margin-top: 15em;
-  }
-
-  .anim {
-    font-size: 20px;
-  }
-
-  .svg1 {
-    display: none;
-  }
+.dood {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5em;
 }

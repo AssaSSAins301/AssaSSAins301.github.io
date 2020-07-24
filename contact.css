@@ -4,7 +4,6 @@
   text-decoration: none;
   box-sizing: border-box;
   text-decoration: none;
-  color: white;
 }
 
 html,
@@ -162,6 +161,7 @@ form {
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
+  outline: none;
 }
 
 textarea {
@@ -171,4 +171,85 @@ textarea {
 .hit:hover {
   color: white;
   background-color: blue;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  form {
+    margin-top: -5em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-right: -10em;
+  }
+
+  .logo {
+    margin-left: 0.5em;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 4em;
+    margin-top: 0.5em;
+    width: 3em;
+    height: 3em;
+  }
+
+  .bar {
+    width: 100%;
+    height: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: black;
+  }
+
+  .cont1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+  }
+
+  .cont2 {
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75.5%;
+  }
+
+  .name {
+    width: 100%;
+    height: 3em;
+    border: 1px solid black;
+  }
+
+  .email {
+    width: 100%;
+    height: 3em;
+    border: 1px solid black;
+    margin-left: 0em;
+    margin-top: 0.5em;
+  }
+
+  .subject {
+    width: 100%;
+    height: 3em;
+    border: 1px solid black;
+    margin-top: 0.5em;
+  }
+
+  .contact {
+    width: 100%;
+    height: 10em;
+    border: 1px solid black;
+    margin-top: 0.5em;
+  }
 }
