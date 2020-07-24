@@ -272,4 +272,8 @@ nav li a {
   .con4 {
     display: none;
   }
+
+  .mine {
+    display: none;
+  }
 }
