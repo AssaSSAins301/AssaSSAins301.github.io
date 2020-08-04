@@ -122,6 +122,16 @@ nav li {
   display: none;
 }
 
+@media (min-width: 1000px) {
+  nav li {
+    display: none;
+  }
+  #logo {
+    width: 30%;
+    margin-left: 0em;
+  }
+}
+
 @media (max-width: 1000px) {
   nav li {
     display: none;
