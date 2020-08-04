@@ -122,7 +122,7 @@ nav li {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   nav li {
     display: none;
   }
