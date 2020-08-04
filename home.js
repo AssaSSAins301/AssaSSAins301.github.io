@@ -1,12 +1,8 @@
-const menu_open = document.getElementById("menu");
-
-// Event Listener
-menu_open.addEventListener("click", myFunction);
-
-// Functions
 function myFunction() {
-  anime({
-    targets: "nav",
-    translateX: -115,
-  });
+  var x = document.getElementById("menuitems");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }

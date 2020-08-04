@@ -11,36 +11,67 @@
   <body>
     <!-- nav bar -->
     <header>
-      <a class="logo" href="index.html">Caleb</a>
-      <div id="menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+      <img src="logo.PNG" id="logo" />
+
+      <div onclick="myFunction()" id="menu">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
 
       <nav>
-        <li><a class="gn" href="about.html">About</a></li>
-        <li><a class="gn" href="contact.html">Contact</a></li>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Rates</li>
+        <li>Hair Club</li>
+        <li>Contact Us</li>
+        <li>Gallery</li>
       </nav>
     </header>
 
+    <div id="menuitems">
+      <li>Home</li>
+      <li>Services</li>
+      <li>Rates</li>
+      <li>Hair Club</li>
+      <li>Contact Us</li>
+      <li>Gallery</li>
+    </div>
+
     <section>
-      <div class="animated">
-        <p class="anim">Hey, I'm Caleb, Front End Developer</p>
+      <!-- ANIMATION -->
+      <div id="main">
+        <p id="text">Moving Mountains Tutoring and Mentoring Service</p>
       </div>
 
-      <div class="svg1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            class="loog"
-            fill="#a8dadc"
-            fill-opacity="1"
-            d="M0,160L48,149.3C96,139,192,117,288,138.7C384,160,480,224,576,213.3C672,203,768,117,864,101.3C960,85,1056,139,1152,154.7C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-          ></path>
-        </svg>
+      <!-- image 1 -->
+      <div id="tutor-image">
+        <img src="tutor2.PNG" id="tutor" />
+      </div>
+
+      <!-- about us -->
+      <div id="about-us">
+        <div id="us">
+          <div id="about">
+            <p>About Us</p>
+          </div>
+          <div id="summary">
+            <p>
+              Moving Mountains Tutoring and Mentoring Services, LLC pride
+              ourselves on our dedication to addressing the disparity in
+              academics between subgroups in the United States while educating
+              the whole child. We believe each child is an adequate individual
+              who may need gentle support with unpacking their strengths and
+              unique potential. Taking a whole child approach enables us to
+              prepare students for the challenges and opportunities that may
+              arise in their future. To support the closing of the achievement
+              gap, we provide targeted instruction that is grounded in the
+              latest research to suit the needs of each learner we service.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <script src="home.js" async defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
   </body>
 </html>
